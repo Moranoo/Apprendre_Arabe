@@ -1,8 +1,14 @@
 <div class="container mt-5">
+  <!-- Message flash -->
+  <div *ngIf="flashMessage" class="alert alert-{{flashMessageType}} mt-3">
+    {{ flashMessage }}
+  </div>
+
   <h1 class="mb-4">Quiz sur les lettres arabes</h1>
-  <p class="mb-4">Répondez à la question suivante :</p>
+  <p class="mb-4">Répondez à la question suivante : </p>
   <p class="mb-4">{{ selectedLetter?.description }}</p>
   <input class="form-control mb-3" [(ngModel)]="userAnswer" placeholder="Entrez la lettre">
   <button class="btn btn-primary" (click)="checkAnswer()">Vérifier</button>
 </div>
-<button class="btn btn-secondary mt-3" (click)="navigateToLetters()">Retour aux Lettres</button>
+<div class="container mt-5"><button class="btn btn-secondary mt-3" (click)="navigateToLetters()">Retour aux Lettres</button>
+</div>

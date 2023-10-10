@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { LETTERS_DATA } from '../letters-data'; // Assurez-vous que le chemin est correct
 import { Router } from '@angular/router';
 
@@ -19,7 +19,7 @@ export class QuizComponent {
   userAnswer: string = '';
   attempts: number = 0;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private cdr: ChangeDetectorRef) {
     this.selectRandomLetter();
   }
   navigateToLetters(): void {
@@ -31,25 +31,34 @@ export class QuizComponent {
     this.selectedLetter = this.letters[randomIndex];
   }
 
+  flashMessage: string = '';
+  flashMessageType: string = ''; // 'success' ou 'danger'
+  
+
   checkAnswer(): void {
     if (this.userAnswer === this.selectedLetter?.name) {
       // Bonne réponse
-      this.showFlashMessage('Correct!', 'success');
+      this.showFlashMessage('Bravo !', 'success');
       this.moveToNextQuestion();
     } else {
       // Mauvaise réponse
       this.attempts++;
       if (this.attempts < 2) {
-        this.showFlashMessage('Incorrect. Try again.', 'danger');
+        this.showFlashMessage('Faux dérniére chance !', 'danger');
       } else {
-        this.showFlashMessage('Incorrect. Moving to next question.', 'danger');
+        this.showFlashMessage('Raté question suivante !', 'danger');
         this.moveToNextQuestion();
       }
     }
   }
-
   showFlashMessage(message: string, type: string): void {
-    // Implémentez la logique pour afficher un message flash
+    this.flashMessage = message;
+    this.flashMessageType = type;
+    this.cdr.detectChanges(); 
+    setTimeout(() => {
+      this.flashMessage = '';
+      this.flashMessageType = '';
+    }, 3000);
   }
 
   moveToNextQuestion(): void {
