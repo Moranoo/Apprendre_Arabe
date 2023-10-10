@@ -44,7 +44,7 @@ export class QuizComponent {
       // Mauvaise réponse
       this.attempts++;
       if (this.attempts < 2) {
-        this.showFlashMessage('Faux dérniére chance !', 'danger');
+        this.showFlashMessage('Erreur dernière chance !', 'danger');
       } else {
         this.showFlashMessage('Raté question suivante !', 'danger');
         this.moveToNextQuestion();
