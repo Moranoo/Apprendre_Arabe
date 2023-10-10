@@ -14,10 +14,10 @@ export const LETTERS_DATA = [
     {
       name: 'ب',
       description: 'Ba',
-      image: 'path-to-image-ba.jpg',
+      image: './assets/ba.jpg',
       sound: 'path-to-sound-ba.mp3',
       examples: {
-        isolated: 'ب',
+        isolated: 'ب' ,
         beginning: 'باب',
         middle: 'أبو',
         end: 'كتب'
@@ -26,7 +26,7 @@ export const LETTERS_DATA = [
     {
       name: 'ت',
       description: 'Ta',
-      image: 'path-to-image-ta.jpg',
+      image: './assets/ta.jpg',
       sound: 'path-to-sound-ta.mp3',
       examples: {
         isolated: 'ت',
@@ -38,7 +38,7 @@ export const LETTERS_DATA = [
     {
       name: 'ث',
       description: 'Tha',
-      image: 'path-to-image-tha.jpg',
+      image: './assets/tha.jpg',
       sound: 'path-to-sound-tha.mp3',
       examples: {
         isolated: 'ث',
@@ -50,7 +50,7 @@ export const LETTERS_DATA = [
     {
         name: 'ج',
         description: 'Jeem',
-        image: 'path-to-image-jeem.jpg',
+        image: './assets/jim.jpg',
         sound: 'path-to-sound-jeem.mp3',
         examples: {
           isolated: 'ج',
@@ -62,7 +62,7 @@ export const LETTERS_DATA = [
       {
         name: 'ح',
         description: 'Haa',
-        image: 'path-to-image-haa.jpg',
+        image: './assets/ha.jpg',
         sound: 'path-to-sound-haa.mp3',
         examples: {
           isolated: 'ح',
@@ -74,7 +74,7 @@ export const LETTERS_DATA = [
       {
         name: 'خ',
         description: 'Khaa',
-        image: 'path-to-image-khaa.jpg',
+        image: './assets/kha.jpg',
         sound: 'path-to-sound-khaa.mp3',
         examples: {
           isolated: 'خ',
@@ -86,7 +86,7 @@ export const LETTERS_DATA = [
       {
         name: 'د',
         description: 'Dal',
-        image: 'path-to-image-dal.jpg',
+        image: './assets/dal.jpg',
         sound: 'path-to-sound-dal.mp3',
         examples: {
           isolated: 'د',
@@ -98,7 +98,7 @@ export const LETTERS_DATA = [
       {
         name: 'ذ',
         description: 'Thal',
-        image: 'path-to-image-thal.jpg',
+        image: './assets/dzal.jpg',
         sound: 'path-to-sound-thal.mp3',
         examples: {
           isolated: 'ذ',
@@ -110,7 +110,7 @@ export const LETTERS_DATA = [
       {
         name: 'ر',
         description: 'Ra',
-        image: 'path-to-image-ra.jpg',
+        image: './assets/ra.jpg',
         sound: 'path-to-sound-ra.mp3',
         examples: {
           isolated: 'ر',
@@ -122,7 +122,7 @@ export const LETTERS_DATA = [
       {
         name: 'ز',
         description: 'Zay',
-        image: 'path-to-image-zay.jpg',
+        image: './assets/zay.jpg',
         sound: 'path-to-sound-zay.mp3',
         examples: {
           isolated: 'ز',
@@ -134,7 +134,7 @@ export const LETTERS_DATA = [
       {
         name: 'س',
         description: 'Seen',
-        image: 'path-to-image-seen.jpg',
+        image: './assets/sinn.jpg',
         sound: 'path-to-sound-seen.mp3',
         examples: {
           isolated: 'س',
@@ -146,7 +146,7 @@ export const LETTERS_DATA = [
       {
         name: 'ش',
         description: 'Sheen',
-        image: 'path-to-image-sheen.jpg',
+        image: './assets/chine.jpg',
         sound: 'path-to-sound-sheen.mp3',
         examples: {
           isolated: 'ش',
@@ -158,7 +158,7 @@ export const LETTERS_DATA = [
       {
         name: 'ص',
         description: 'Sad',
-        image: 'path-to-image-sad.jpg',
+        image: './assets/sad.jpg',
         sound: 'path-to-sound-sad.mp3',
         examples: {
           isolated: 'ص',
@@ -170,7 +170,7 @@ export const LETTERS_DATA = [
       {
         name: 'ض',
         description: 'Dad',
-        image: 'path-to-image-dad.jpg',
+        image: './assets/daad.jpg',
         sound: 'path-to-sound-dad.mp3',
         examples: {
           isolated: 'ض',
@@ -182,7 +182,7 @@ export const LETTERS_DATA = [
       {
         name: 'ط',
         description: 'Taa',
-        image: 'path-to-image-taa.jpg',
+        image: './assets/taa.jpg',
         sound: 'path-to-sound-taa.mp3',
         examples: {
           isolated: 'ط',
