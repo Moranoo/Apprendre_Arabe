@@ -2,7 +2,7 @@ export const LETTERS_DATA = [
     {
       name: 'أ',
       description: 'Alef',
-      image: 'path-to-image-alef.jpg',
+      image: './assets/Alif.jpg ',
       sound: 'path-to-sound-alef.mp3',
       examples: {
         isolated: 'أ',
