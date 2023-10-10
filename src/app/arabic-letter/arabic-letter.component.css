@@ -1,0 +1,12 @@
+.my-card {
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 767px) {
+    .centered-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

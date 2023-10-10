@@ -1,0 +1,22 @@
+<button class="btn btn-primary" (click)="navigateToQuiz()">Aller au Quiz</button>
+<div class="row" *ngFor="let letterRow of letterRows">
+    <div class="col-md-3 centered-card" *ngFor="let letter of letterRow">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{ letter.name }}</h5>
+          <p class="card-text">{{ letter.description }}</p>
+          <a href="#" class="btn btn-primary" (click)="showDetails(letter)">Voir les détails</a>
+          
+          <!-- Détails de la lettre sélectionnée -->
+          <div *ngIf="selectedLetter === letter" class="additional-info">
+            <h6>Détails de la lettre</h6>
+            <p>{{ selectedLetter.description }}</p>
+            <p>lettre en début de mot : {{selectedLetter.examples.beginning}}</p>
+            <p>lettre en milieu de mot : {{selectedLetter.examples.middle}}</p>
+            <p>lettre en fin de mot : {{selectedLetter.examples.end}}</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
