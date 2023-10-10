@@ -194,7 +194,7 @@ export const LETTERS_DATA = [
       {
         name: 'ظ',
         description: 'Zaa',
-        image: 'path-to-image-zaa.jpg',
+        image: './assets/zhaad.jpg',
         sound: 'path-to-sound-zaa.mp3',
         examples: {
           isolated: 'ظ',
@@ -206,7 +206,7 @@ export const LETTERS_DATA = [
       {
         name: 'ع',
         description: 'Ain',
-        image: 'path-to-image-ain.jpg',
+        image: './assets/3ain.jpg',
         sound: 'path-to-sound-ain.mp3',
         examples: {
           isolated: 'ع',
@@ -218,7 +218,7 @@ export const LETTERS_DATA = [
       {
         name: 'غ',
         description: 'Ghain',
-        image: 'path-to-image-ghain.jpg',
+        image: './assets/ghain.jpg',
         sound: 'path-to-sound-ghain.mp3',
         examples: {
           isolated: 'غ',
@@ -230,7 +230,7 @@ export const LETTERS_DATA = [
       {
         name: 'ف',
         description: 'Fa',
-        image: 'path-to-image-fa.jpg',
+        image: './assets/fa.jpg',
         sound: 'path-to-sound-fa.mp3',
         examples: {
           isolated: 'ف',
@@ -242,7 +242,7 @@ export const LETTERS_DATA = [
       {
         name: 'ق',
         description: 'Qaf',
-        image: 'path-to-image-qaf.jpg',
+        image: './assets/qaf.jpg',
         sound: 'path-to-sound-qaf.mp3',
         examples: {
           isolated: 'ق',
@@ -254,7 +254,7 @@ export const LETTERS_DATA = [
       {
         name: 'ك',
         description: 'Kaf',
-        image: 'path-to-image-kaf.jpg',
+        image: './assets/kef.jpg',
         sound: 'path-to-sound-kaf.mp3',
         examples: {
           isolated: 'ك',
@@ -266,7 +266,7 @@ export const LETTERS_DATA = [
       {
         name: 'ل',
         description: 'Lam',
-        image: 'path-to-image-lam.jpg',
+        image: './assets/laam.jpg',
         sound: 'path-to-sound-lam.mp3',
         examples: {
           isolated: 'ل',
@@ -278,7 +278,7 @@ export const LETTERS_DATA = [
       {
         name: 'م',
         description: 'Meem',
-        image: 'path-to-image-meem.jpg',
+        image: './assets/miim.jpg',
         sound: 'path-to-sound-meem.mp3',
         examples: {
           isolated: 'م',
@@ -290,7 +290,7 @@ export const LETTERS_DATA = [
       {
         name: 'ن',
         description: 'Noon',
-        image: 'path-to-image-noon.jpg',
+        image: './assets/nuun.jpg',
         sound: 'path-to-sound-noon.mp3',
         examples: {
           isolated: 'ن',
@@ -302,7 +302,7 @@ export const LETTERS_DATA = [
       {
         name: 'هـ',
         description: 'Ha',
-        image: 'path-to-image-ha.jpg',
+        image: './assets/haaa.jpg',
         sound: 'path-to-sound-ha.mp3',
         examples: {
           isolated: 'هـ',
@@ -314,7 +314,7 @@ export const LETTERS_DATA = [
       {
         name: 'و',
         description: 'Waw',
-        image: 'path-to-image-waw.jpg',
+        image: './assets/waaw.jpg',
         sound: 'path-to-sound-waw.mp3',
         examples: {
           isolated: 'و',
@@ -326,7 +326,7 @@ export const LETTERS_DATA = [
       {
         name: 'ي',
         description: 'Ya',
-        image: 'path-to-image-ya.jpg',
+        image: './assets/yaa.jpg',
         sound: 'path-to-sound-ya.mp3',
         examples: {
           isolated: 'ي',
